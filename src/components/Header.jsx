@@ -12,7 +12,6 @@ export default function Header() {
       <nav className="desktop-nav">
         <a href="/">Home</a>
         <a href="/about">About Us</a>
-        <a href="/donate">Donate</a>
       </nav>
       <button className="hamburger" aria-label="Toggle Menu" onClick={() => setIsOpen(!isOpen)}>
         <span></span>
@@ -22,7 +21,6 @@ export default function Header() {
       <nav className={`mobile-nav ${isOpen ? "open" : ""}`}>
         <a href="/">Home</a>
         <a href="/about">About Us</a>
-        <a href="/donate">Donate</a>
       </nav>
     </header>
   );
